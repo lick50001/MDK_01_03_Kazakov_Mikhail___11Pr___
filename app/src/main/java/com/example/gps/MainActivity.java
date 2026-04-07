@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
+
+        result = findViewById(R.id.result);
+        _LocationManager = (LocationManager) getSystemService(LOCALE_SERVICE);
         };
     }
 

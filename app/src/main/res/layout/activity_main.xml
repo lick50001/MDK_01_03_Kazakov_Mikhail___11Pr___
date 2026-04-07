@@ -34,6 +34,7 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/result"
             android:layout_width="282dp"
             android:layout_height="wrap_content"
             android:text="Местоположение определено с помощью интернета: долгота -58.0124515 широта -58.125126"
